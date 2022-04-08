@@ -1,9 +1,9 @@
-#include<iostream>
+п»ї#include<iostream>
 using namespace std;
 
 #define tab "\t"
 
-void FillRand(int arr[], const int n, int minRand=0, int maxRand=100); //Прототип функции
+void FillRand(int arr[], const int n, int minRand=0, int maxRand=100); //РџСЂРѕС‚РѕС‚РёРї С„СѓРЅРєС†РёРё
 void Print(int arr[], const int n);
 int Sum(int arr[], const int n);
 void Sort(int arr[], const int n);
@@ -16,11 +16,11 @@ void main()
 	int arr[n];
 	FillRand(arr, n);
 	Print(arr, n);
-	cout << "Среднее арифметическое элементов массива:" << Avg(arr, n) << endl;
-	cout << "Сумма элементов массива:" << Sum(arr, n) << endl;
+	cout << "РЎСЂРµРґРЅРµРµ Р°СЂРёС„РјРµС‚РёС‡РµСЃРєРѕРµ СЌР»РµРјРµРЅС‚РѕРІ РјР°СЃСЃРёРІР°:" << Avg(arr, n) << endl;
+	cout << "РЎСѓРјРјР° СЌР»РµРјРµРЅС‚РѕРІ РјР°СЃСЃРёРІР°:" << Sum(arr, n) << endl;
 
 }
-void FillRand(int arr[], const int n, int minRand, int maxRand) //Прототип функции
+void FillRand(int arr[], const int n, int minRand, int maxRand) //РџСЂРѕС‚РѕС‚РёРї С„СѓРЅРєС†РёРё
 {
 	for (int i = 0; i < n; i++)
 	{
