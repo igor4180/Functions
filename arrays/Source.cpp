@@ -6,6 +6,15 @@ using namespace std;
 
 	const int ROWS = 3;
 	const int COLS = 4;
+	template<class T>
+	T sum(T a, T b)
+	{
+		T result;
+		result = a + b;
+		return result;
+	}
+	
+	
 
 void FillRand(int arr[], const int n, int minRand = 0, int maxRand = 100); //Прототип функции
 void FillRand(double arr[], const int n, int minRand = 0, int maxRand = 100); //Прототип функции
